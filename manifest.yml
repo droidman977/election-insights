@@ -2,10 +2,7 @@
 declared-services:
   AlchemyAPI-7h:
     label: AlchemyAPI
-    plan: user-provided
-  MongoLab-Election:
-    label: mongolab
-    plan: sandbox
+    plan: free
 applications:
 - disk_quota: 1024M
   random-route: true
@@ -16,4 +13,3 @@ applications:
   memory: 256M
   services:
   - AlchemyAPI-7h
-  - mongolab_ei_jk
